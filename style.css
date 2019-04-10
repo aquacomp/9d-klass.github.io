@@ -1,6 +1,5 @@
-<style>
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=cyrillic,cyrillic-ext');
-</style>
+font-family: 'Roboto', sans-serif;
 body {
 	overflow-x:hidden;
 	overflow-y:hidden;
