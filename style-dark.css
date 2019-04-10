@@ -1,0 +1,77 @@
+body {
+	overflow-x:hidden;
+	overflow-y:hidden;
+	background: rgb(10,10,10);
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+#square {
+	position: absolute;
+	top: 13.3%;
+	left: 6.3%;
+	border-radius: 35px;
+    width: 87.5%;
+    height: 80%;
+    background: rgba(20,20,20, 0.95);
+}
+
+.user {
+width: 4.8%;
+height: 10.1%;
+position: absolute;
+right: 0.7%;
+top: 1.6%;
+opacity: 0.95;
+}
+
+.user:hover {
+opacity: 0.5;
+}
+
+.user:active {
+opacity: 0;
+}
+
+.main {
+width: 4.8%;
+height: 10.1%;
+position: absolute;
+left: 0.7%;
+top: 1.6%;
+opacity: 0.95;
+}
+
+.main:hover {
+opacity: 0.5;
+}
+
+.main:active {
+opacity: 0;
+}
+
+.chat {
+width: 4.8%;
+height: 10.1%;
+position: absolute;
+left: 89%;
+top: 1.6%;
+}
+
+.chat:hover {
+opacity: 0.5;
+}
+
+.chat:active {
+opacity: 0;
+}
+
+.homework {
+width: 80%;
+position: absolute;
+left: 10%;
+top: 10%;
+border-radius: 15px;
+}
