@@ -3,7 +3,8 @@ body {
 	font-family: 'Roboto', sans-serif;
 	overflow-x:hidden;
 	overflow-y:hidden;
-	background: rgb(10,10,10);
+	background: rgb(10,10,10); /*Для старых браузеров*/
+	background: linear-gradient(45deg, rgb(10,10,10), rgb(0,0,0));
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
