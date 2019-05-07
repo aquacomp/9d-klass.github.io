@@ -2,7 +2,6 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	overflow-x:hidden;
-	overflow-y:hidden;
 	background: rgb(10,10,10); /*Для старых браузеров*/
 	background: linear-gradient(45deg, rgb(10,10,10), rgb(0,0,0));
       -webkit-background-size: cover;
@@ -10,17 +9,15 @@ body {
       -o-background-size: cover;
       background-size: cover;
 }
-
 #square {
 	position: absolute;
-	top: 13.3%;
+	top: 18%;
 	left: 6.3%;
-	border-radius: 35px;
-    width: 87.5%;
-    height: 80%;
-    background: rgba(20,20,20, 0.95);
+	border-radius: 35px 35px 00px 00px;
+  width: 87.5%;
+  height: 100%;
+  background: rgba(15,15,15, 0.95);
 }
-
 .user {
 width: 4.8%;
 height: 10.1%;
@@ -72,9 +69,9 @@ opacity: 0;
 }
 
 .homework {
-width: 80%;
+width: 90%;
 position: absolute;
-left: 10%;
-top: 10%;
-border-radius: 20px;
+left: 5%;
+top: 5%;
+border-radius: 35px;
 }
